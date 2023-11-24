@@ -44,7 +44,7 @@
 
 <div class="message-container">
     <a href="{{ route('/') }} " >
-<img src="https://2.bp.blogspot.com/-evkm8IopfB0/UV2Ok50P0-I/AAAAAAAAAGc/YsJurpqxqu4/s300/construccion.gif" width="200" height="200" alt="">    
+<img src="http://www.pngall.com/wp-content/uploads/2018/04/Construction-PNG-Images.png" width="400" height="430" alt="">    
 
     </a>       
 </div>
