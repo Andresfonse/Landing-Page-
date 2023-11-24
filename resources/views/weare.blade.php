@@ -14,7 +14,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-image: url('https://wallpaperaccess.com/full/2968326.jpg'); /* Cambia la URL de la imagen de fondo */
+            background-image: url('https://wallpaperbat.com/img/162937-the-best-gyms-around-the-world-2018-wallpaper.jpg'); /* Cambia la URL de la imagen de fondo */
             background-size: cover;
             background-position: center;
             font-family: 'Arial', sans-serif;
@@ -43,9 +43,8 @@
 <body>
 
 <div class="message-container">
-    <a class="message" href="{{ route('/') }} " >
-        Build this view 
-    
+    <a href="{{ route('/') }} " >
+<img src="https://2.bp.blogspot.com/-evkm8IopfB0/UV2Ok50P0-I/AAAAAAAAAGc/YsJurpqxqu4/s300/construccion.gif" width="200" height="200" alt="">    
 
     </a>       
 </div>
