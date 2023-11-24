@@ -16,6 +16,9 @@ class="flex flex-col bg-cover bg-center bg-indigo-900 h-screen" style="backgroun
                 <a style="margin-right: 10px;" href="{{ route('login') }}">Login</a>
 
                 <a style="margin-right: 10px;" href="{{ route('commits') }}">Commits</a>
+                <a style="margin-right: 10px;" href="{{ route('coffe') }}">Buy me A coffe?</a>
+                <a style="margin-right: 10px;" href="{{ route('weare') }}">We Are? </a>
+
 
                
             @endauth
@@ -42,7 +45,7 @@ class="flex flex-col bg-cover bg-center bg-indigo-900 h-screen" style="backgroun
         </div>
     </div>
 
-    <x-modal class="bg-blue-500" trigger="showSubscribe">
+    <x-modal class="bg-gray-900" trigger="showSubscribe">
         <p class="text-white font-extrabold text-5xl text-center">
             Do Now 
         </p>
@@ -75,6 +78,19 @@ class="flex flex-col bg-cover bg-center bg-indigo-900 h-screen" style="backgroun
                     Get In
                 </span>
             </x-button2>
+
+            <x-button2
+                class="px-5 py-3 mt-5 w-80 bg-green justify-center"
+            >
+                <span class="animate-spin" wire:loading wire:target="subscribe">
+                    &#9696;
+                </span>
+                <span wire:loading.remove wire:target="subscribe">
+                   Buy A Coffe 
+                </span>
+            </x-button2>
+
+            
         </form>
     </x-modal>
 

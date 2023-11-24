@@ -22,10 +22,11 @@ Breve descripción de tu proyecto Laravel 10. Puedes incluir información sobre 
    git clone https://github.com/tu-usuario/tu-proyecto.git
 Navega al directorio del proyecto:
 
- ```bash
+
 Copy code
 cd tu-proyecto
 Instala las dependencias:
+
 
  ```bash
 Copy code

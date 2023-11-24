@@ -19,11 +19,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('/');
 
 Route::get('/commits', function () {
     return view('commits');
 })->name('commits');
+
+Route::get('/weare', function(){
+    return view(('/weare'));
+})->name('weare');
+
+Route::get('/coffe', function(){
+    return view('coffe');
+})->name('coffe');
 
 
 Route::get('/subscribers/verify/{subscriber}', [SubscriberController::class, 'verify'])
