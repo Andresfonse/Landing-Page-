@@ -1,62 +1,65 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Proyecto Laravel 10
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![Laravel Logo](/path/to/your/logo.png)
 
-## About Laravel
+## Descripción del Proyecto
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Breve descripción de tu proyecto Laravel 10. Puedes incluir información sobre sus características clave, su propósito y cualquier otra cosa relevante.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Capturas de Pantalla
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![Captura de Pantalla 1](https://migreseunegocio.com.br/wp-content/uploads/2016/08/o-que-sao-landing-pages-e-por-que-sua-empresa-deve-utilizalas.jpg)
+*Descripción de la captura de pantalla 1.*
 
-## Learning Laravel
+![Captura de Pantalla 2](https://i.workana.com/wp-content/uploads/2018/12/landing-min.jpg)
+*Descripción de la captura de pantalla 2.*
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Instrucciones para Clonar el Proyecto
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. Clona el repositorio en tu máquina local:
 
-## Laravel Sponsors
+   ```bash
+   git clone https://github.com/tu-usuario/tu-proyecto.git
+Navega al directorio del proyecto:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+ ```bash
+Copy code
+cd tu-proyecto
+Instala las dependencias:
 
-### Premium Partners
+ ```bash
+Copy code
+composer install
+Copia el archivo de configuración .env:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
+ ```bash
+Copy code
+cp .env.example .env
+Abre el archivo .env en un editor de texto y ajusta la configuración, especialmente el mailer:
 
-## Contributing
+dotenv
+Copy code
+MAIL_MAILER=log
+Genera la clave de aplicación:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+ ```bash
+Copy code
+php artisan key:generate
+Ejecuta las migraciones y los seeders:
 
-## Code of Conduct
+ ```bash
+Copy code
+php artisan migrate --seed
+Inicia el servidor de desarrollo:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+ ```bash
+Copy code
+php artisan serve
+Abre tu navegador y visita http://localhost:8000 para ver la aplicación.
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Requisitos del Sistema
+PHP >= 8.0
+Composer
+...
+Contribuir
+Si deseas contribuir a este proyecto, por favor sigue las pautas de contribución.
